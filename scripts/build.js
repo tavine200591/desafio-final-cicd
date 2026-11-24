@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 
 const raiz = path.resolve(__dirname, "..");
-const destino = path.join(raiz, "build"); //erro proposital
+const destino = path.join(raiz, "dist");
 
 console.log("Iniciando Build...");
 
