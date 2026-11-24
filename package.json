@@ -1,0 +1,14 @@
+
+{
+  "name": "desafio-final-cicd",
+  "version": "1.0.0",
+  "description": "Projeto prático de CI/CD com GitHub Actions",
+  "scripts": {
+    "lint": "htmlhint index.html",
+    "validate": "node scripts/validar.js",
+    "build": "node scripts/build.js"
+  },
+  "devDependencies": {
+    "htmlhint": "^1.6.3"
+  }
+}
